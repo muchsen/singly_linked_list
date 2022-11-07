@@ -47,13 +47,22 @@ namespace singly_linked_list
             current = START;
             while ((current != null) && (rollNo >= current.rollNumber))
             {
-                Console.WriteLine();
-                return ;
+                if(rollNo == current.rollNumber)
+                {
+                    Console.WriteLine();
+                    return;
+
+                }
+                previous.next = current;
+                previous.next = newnode;
+
+
             }
-            previous.next = current;
+            newnode.next = current;
             previous.next = newnode;
+
         }
-        newnode
+        
 
     }
 
