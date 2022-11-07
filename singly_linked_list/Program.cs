@@ -72,6 +72,10 @@ namespace singly_linked_list
                 previous.next = current;
                 current = current.next;
             }
+            if(current == null)
+                return false;
+            else
+                return true;
         }
         
 
