@@ -150,8 +150,14 @@ namespace singly_linked_list
                             break;
 
                         case '4':
-
-                    }
+                        
+                            {
+                                if (obj.listEmpty() == true)
+                                {
+                                    Console.WriteLine("\nList is empty");
+                                    break;
+                                }
+                            }
 
 
                     }
