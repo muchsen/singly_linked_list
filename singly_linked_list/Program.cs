@@ -12,6 +12,21 @@ namespace singly_linked_list
 
     class list
     {
+        node START;
+
+        public list()
+        {
+            START = null;
+        }
+
+        public void addNote()
+        {
+            int rollNo;
+            string nm;
+            Console.WriteLine("\nEnter the roll number of the student: ");
+            rollNo = Convert.ToInt32(Console.ReadLine());
+            nm = Console.ReadLine();
+        }
 
     }
 
