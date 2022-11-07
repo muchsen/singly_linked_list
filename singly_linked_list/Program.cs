@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 namespace singly_linked_list
 {
@@ -185,6 +186,10 @@ namespace singly_linked_list
                 }
 
                     }
+            Catch(Exception)
+                {
+                Console.WriteLine("\nCheck for the value Entered");
+            }
                 }
             }
             
