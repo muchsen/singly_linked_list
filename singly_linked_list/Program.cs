@@ -148,6 +148,9 @@ namespace singly_linked_list
                                 obj.Traverse();
                             }
                             break;
+
+                        case '4':
+
                     }
 
 
