@@ -80,7 +80,16 @@ namespace singly_linked_list
 
         public void Traverse()
         {
-            
+            if (listEmpty))
+                    Console.WriteLine("\nThe records in the list are: ");
+            else
+                Console.WriteLine("\nThe records in the list are ");
+            node currentNode;
+            for (currentNode = START; currentNode != null;
+                currentNode = currentNode.next)
+                Console.WriteLine(currentNode.rollNumber + " " + currentNode.name + "\n");
+            Console.WriteLine();
+
         }
         
 
