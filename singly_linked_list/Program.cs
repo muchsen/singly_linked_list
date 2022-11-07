@@ -77,6 +77,11 @@ namespace singly_linked_list
             else
                 return true;
         }
+
+        public void Traverse()
+        {
+            
+        }
         
 
     }
