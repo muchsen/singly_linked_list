@@ -63,6 +63,17 @@ namespace singly_linked_list
 
         }
         
+        public bool search(int rollNo, ref node previous,ref node current)
+        {
+            previous = current;
+            current = current.next;
+            while ((current != null) && (rollNo != current.rollNumber))
+            {
+                previous.next = current;
+                current = current.next;
+            }
+        }
+        
 
     }
 
