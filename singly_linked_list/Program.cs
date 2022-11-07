@@ -123,8 +123,9 @@ namespace singly_linked_list
                     {
                         case '1':
                             {
-                                
+                                obj.addNote();
                             }
+                            break;
 
                     }
                 }
