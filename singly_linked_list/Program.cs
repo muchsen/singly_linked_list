@@ -94,6 +94,10 @@ namespace singly_linked_list
         
 
     }
+    public bool listEmpty()
+    {
+
+    }
 
     class program
     {
