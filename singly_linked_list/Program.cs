@@ -145,8 +145,10 @@ namespace singly_linked_list
 
                         case '3':
                             {
-                                obj.Traverse
+                                obj.Traverse();
                             }
+                            break;
+                    }
 
 
                     }
