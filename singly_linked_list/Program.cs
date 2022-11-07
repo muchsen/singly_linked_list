@@ -104,6 +104,11 @@ namespace singly_linked_list
     
     class program
     {
+        static void main(string[] args)
+        {
+            list obj = new list();
+            
+        }
         
     }
 }
